@@ -60,6 +60,8 @@
         automouse-layer = <4>;
         scroll-layers = <5>;
     };
+};   // ここで &spi0 ブロックを閉じる
+
+&pointing_device {
+    pointer_speed = <2>;
 };
-
-
