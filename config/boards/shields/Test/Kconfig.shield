@@ -4,6 +4,10 @@ config SHIELD_ROBA_R
 config SHIELD_ROBA_L
     def_bool $(shields_list_contains,roBa_L)
 
+config PMW3610_ADJUSTABLE_MOUSESPEED
+    bool "Enable adjustable mouse speed for PMW3610"
+    default n
+
 config PMW3610_SCROLL_ACCELERATION
     bool "Enable scroll acceleration for PMW3610"
     default n
